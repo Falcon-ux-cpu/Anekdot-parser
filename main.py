@@ -47,9 +47,9 @@ def send_email(subject, body, img_data=None):
 
 def run_delivery():
     targets = [
-        {'url': '/release/anekdot/day/2026-07-16/', 'type': 'анекдот'},
-        {'url': '/release/story/day/2026-07-16/', 'type': 'история'},
-        {'url': '/release/mem/day/2026-07-16/', 'type': 'мем'}
+        {'url': '/release/anekdot/day/2026-07-14/', 'type': 'анекдот'},
+        {'url': '/release/story/day/2026-07-14/', 'type': 'история'},
+        {'url': '/release/mem/day/2026-07-14/', 'type': 'мем'}
     ]
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36'}
     
